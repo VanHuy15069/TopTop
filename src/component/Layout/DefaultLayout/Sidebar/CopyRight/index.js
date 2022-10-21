@@ -1,0 +1,161 @@
+import classNames from 'classnames/bind';
+import styles from './CopyRight.module.scss';
+const cx = classNames.bind(styles);
+function CopyRight() {
+    return (
+        <div className={cx('wrapper')}>
+            <div className={cx('box')}>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    About
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    TikTok Browse
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Newsroom
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Contact
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Careers
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    ByteDance
+                </a>
+            </div>
+            <div className={cx('box')}>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    About
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    TikTok Browse
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Newsroom
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Contact
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Careers
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    ByteDance
+                </a>
+            </div>
+            <div className={cx('box')}>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    About
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    TikTok Browse
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Newsroom
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Contact
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Careers
+                </a>
+                <a
+                    className={cx('link')}
+                    href="https://www.tiktok.com/foryou?is_copy_url=1&amp;is_from_webapp=v1"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    ByteDance
+                </a>
+            </div>
+            <p className={cx('copy-right')}>© 2022 TikTok</p>
+        </div>
+    );
+}
+export default CopyRight;

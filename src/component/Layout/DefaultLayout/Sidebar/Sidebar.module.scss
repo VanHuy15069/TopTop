@@ -1,0 +1,13 @@
+.wrapper {
+    position: fixed;
+    width: 340px;
+    padding: 20px 0 26px 0;
+    max-height: calc(100vh - 60px);
+    overflow-y: hidden;
+    &:hover {
+        overflow-y: overlay;
+    }
+}
+.sidebarProfile {
+    width: 240px;
+}

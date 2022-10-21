@@ -1,0 +1,93 @@
+.wrapper {
+    padding: 16px 0 16px 4px;
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+}
+.lable {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #5c5e66;
+    padding-bottom: 8px;
+}
+.more-btn {
+    color: var(--primary);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+.account-item {
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.infor {
+    flex: 1;
+    line-height: 1.4;
+}
+.nick-name {
+    font-size: 1.6rem;
+    color: #161823;
+}
+.icon {
+    color: rgb(32, 213, 236);
+    padding-left: 4px;
+    font-size: 1.4rem;
+}
+.name {
+    font-size: 1.2rem;
+    color: #5c5e66;
+    opacity: 0.8;
+}
+.box-wrapper {
+    padding: 12px 20px 20px 20px;
+    width: 320px;
+    z-index: 1;
+}
+.box-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-img {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.box-content {
+    padding: 8px 0;
+}
+.box__nick-name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.box-name {
+    font-size: 1.4rem;
+    color: #5c5e66;
+    cursor: pointer;
+}
+.box-like {
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+}
+.like {
+    margin-left: 18px;
+}
+.like-text {
+    padding-left: 6px;
+    color: #5c5e66;
+    opacity: 0.8;
+}
